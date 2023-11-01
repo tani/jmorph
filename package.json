@@ -1,0 +1,14 @@
+{
+  "name": "JMorph",
+  "scripts": {
+    "build": "node build.js",
+    "deploy": "clasp push"
+  },
+  "dependencies": {
+    "@google/clasp": "^2.4.2",
+    "esbuild": "^0.19.5",
+    "esbuild-gas-plugin": "^0.8.0",
+    "rakutenma": "^1.0.0",
+    "tiny-segmenter": "^0.2.0"
+  }
+}
