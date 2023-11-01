@@ -10,7 +10,7 @@ Library ID
 
 ```js
 const rakutenma = JMorph.createRakutenMA()
-console.log(rakutenma.tokenize("お食べになる"))
+console.log(rakutenma.tokenize("お食べになる")) // [["お", "P"],["食べ","V-c"],["に", "P-k"],["なる", "V-dp"]]
 const tinysegmenter = JMorph.createTinySegmenter()
 console.log(tinysegmenter.segment("お食べになる"))
 ```
